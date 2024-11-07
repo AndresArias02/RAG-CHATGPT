@@ -156,12 +156,12 @@ response = remote_chain.invoke({"language": "italian", "text": "hi"})
 print(response) # Output: 'ciao'
 ```
 ### pruebas de funcionalidad:
-![image](https://github.com/user-attachments/assets/c96919ea-e7f9-41b5-9b2c-9c8ba164c099)
+![image](https://github.com/user-attachments/assets/203bb62a-481e-46c9-bc35-59c5c819824f)
 
-![image](https://github.com/user-attachments/assets/2ddb854d-7d8c-4fba-8c17-d2b5520c6181)
+![image](https://github.com/user-attachments/assets/e46bc411-c916-4246-8bce-88089aee0ed4)
 
-![image](https://github.com/user-attachments/assets/2da306f7-c514-48d4-a61e-26c01efca3e7)
+![image](https://github.com/user-attachments/assets/4d9feda8-0311-48a3-9008-277f7714884f)
 
-![image](https://github.com/user-attachments/assets/ae8d99a5-0925-4eb3-9422-8167d411576d)
+![image](https://github.com/user-attachments/assets/48c9c8fe-668d-41cd-80d3-5aaebeaebfea)
 
-![image](https://github.com/user-attachments/assets/0b9c0fd5-b103-41ce-b299-858034b495c7)
+![image](https://github.com/user-attachments/assets/d3d80a79-5bb9-4571-bc29-cb6d59877a5d)
