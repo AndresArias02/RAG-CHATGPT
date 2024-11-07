@@ -1,6 +1,6 @@
 # Aplicación simple de LLM con LangChain
 ## Visión general
-En este tutorial, te guiaremos a través de la construcción de una aplicación simple de LLM con
+En este Laboratorio, revisaremos de la construcción de una aplicación simple de LLM con
 LangChain que traduce texto del inglés a otro idioma. Esta aplicación demostrará cómo usar las
 características de LangChain como:
 - Uso de modelos de lenguaje
@@ -10,8 +10,8 @@ características de LangChain como:
 - Desplegar tu aplicación con LangServe
 ## Configuración
 ### Jupyter Notebook
-Este tutorial usa Jupyter notebooks, una excelente herramienta para aprender sistemas LLM ya que
-permite depuración interactiva cuando las cosas no salen bien. Para ejecutar este tutorial en
+Este laboratorio usa Jupyter notebooks, una excelente herramienta para aprender sistemas LLM ya que
+permite depuración interactiva cuando las cosas no salen bien. Para ejecutar este en
 Jupyter, instala Jupyter con:
 ```bash
 pip install notebook
@@ -41,7 +41,7 @@ O, en Jupyter:
 import getpass
 import os
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = getpass.getpass()
+os.environ["LANGCHAIN_API_KEY"] = "llave openai"
 ```
 ## Usando Modelos de Lenguaje
 LangChain soporta muchos modelos de lenguaje, incluyendo OpenAI, Anthropic, Azure, Google,
@@ -102,7 +102,7 @@ print(response) # Output: 'ciao'
 ```
 ## Desplegando con LangServe
 ### Instalación
-Para desplegar tu aplicación, instala `LangServe`:
+Para desplegar la aplicación, instala `LangServe`:
 ```bash
 pip install "langserve[all]"
 ```
